@@ -66,13 +66,33 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .message {
-    font-size: 24px;
-    padding: 20px;
-  }
+    body {
+        background-size: cover;
+        background-position: center top;
+    }
 
-  .text-bubble {
-    font-size: 16px;
-    padding: 8px 16px;
-  }
+    .message {
+        font-size: 24px;
+        padding: 20px;
+    }
+
+    .charming-text {
+        font-size: 16px;
+        padding: 8px 16px;
+        max-width: 90vw;
+    }
+    .charming-text:nth-child(1) { top: 15%; left: 10%; right: auto; text-align: left; }
+    .charming-text:nth-child(2) { top: 25%; left: 10%; right: auto; text-align: left; }
+    .charming-text:nth-child(3) { top: 35%; left: 10%; right: auto; text-align: left; }
+    .charming-text:nth-child(4) { top: 15%; right: 10%; left: auto; text-align: right; }
+    .charming-text:nth-child(5) { top: 25%; right: 10%; left: auto; text-align: right; }
+    .charming-text:nth-child(6) { top: 35%; right: 10%; left: auto; text-align: right; }
+
+    .flowers {
+        font-size: 25px;
+    }
+
+    .bubbles {
+        font-size: 20px;
+    }
 }
