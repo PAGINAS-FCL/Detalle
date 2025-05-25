@@ -80,13 +80,19 @@ body {
         font-size: 16px;
         padding: 8px 16px;
         max-width: 90vw;
+        text-align: left;
+        left: 5% !important;
+        right: auto !important;
+        transform: none !important;
     }
-    .charming-text:nth-child(1) { top: 15%; left: 10%; right: auto; text-align: left; }
-    .charming-text:nth-child(2) { top: 25%; left: 10%; right: auto; text-align: left; }
-    .charming-text:nth-child(3) { top: 35%; left: 10%; right: auto; text-align: left; }
-    .charming-text:nth-child(4) { top: 15%; right: 10%; left: auto; text-align: right; }
-    .charming-text:nth-child(5) { top: 25%; right: 10%; left: auto; text-align: right; }
-    .charming-text:nth-child(6) { top: 35%; right: 10%; left: auto; text-align: right; }
+
+    /* Ajustamos verticalmente las posiciones */
+    .charming-text:nth-child(1) { top: 15%; }
+    .charming-text:nth-child(2) { top: 25%; }
+    .charming-text:nth-child(3) { top: 35%; }
+    .charming-text:nth-child(4) { top: 45%; }
+    .charming-text:nth-child(5) { top: 55%; }
+    .charming-text:nth-child(6) { top: 65%; }
 
     .flowers {
         font-size: 25px;
